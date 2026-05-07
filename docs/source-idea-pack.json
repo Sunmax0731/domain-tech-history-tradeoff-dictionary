@@ -1,0 +1,52 @@
+{
+  "rank": 86,
+  "domain": "Dictionary",
+  "ideaNo": 1,
+  "ideaName": "領域別技術・歴史・トレードオフ辞書",
+  "repository": "domain-tech-history-tradeoff-dictionary",
+  "publish": "GitHub Pages / GitHub Release",
+  "createdIdeaLookup": {
+    "exactPathFirst": "D:/AI/Dictionary/created_idea_001_domain-tech-history-tradeoff-dictionary",
+    "exactPathExists": true,
+    "fallbackSearched": false,
+    "fallbackResults": [],
+    "notes": "完全一致の created_idea と ZIP を使用した。"
+  },
+  "zipLookup": {
+    "exactZip": "D:/AI/Dictionary/created_idea_001_domain-tech-history-tradeoff-dictionary/idea_001_domain-tech-history-tradeoff-dictionary.zip",
+    "exactZipExists": true,
+    "requiredFiles": [
+      "metadata.json",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md"
+    ],
+    "missingRequiredFiles": []
+  },
+  "zipMetadata": {
+    "domain": "Dictionary",
+    "no": 1,
+    "platform": "Dictionary",
+    "field": "技術辞書・領域横断",
+    "idea": "領域別技術・歴史・トレードオフ辞書",
+    "overview": "AdobePlugin、AssetPipeline、VSCodeExtension、IoT、WindowsApp、WebApp、Gameなど各領域で使う技術を辞書的に記載する。歴史、登場背景、関連技術、代替技術、採用時のトレードオフを読み、タグで絞り込みや並び替えができる。",
+    "problem": "技術名だけを調べても、なぜ使われるのか、何と比較すべきか、どの領域で重要かが分かりにくい。",
+    "similar": "MDN Web Docs, Wikipedia, DevDocs, Stack Overflow, Zenn",
+    "diff": "アイデア棚卸しの領域分類と連動し、技術の意味だけでなく採用判断と関連領域まで辞書として引ける。",
+    "repositoryName": "domain-tech-history-tradeoff-dictionary",
+    "repositoryTitle": "domain-tech-history-tradeoff-dictionary",
+    "zipFile": "idea_001_domain-tech-history-tradeoff-dictionary.zip"
+  },
+  "metadataRepositoryMatches": true,
+  "metadataZipMatches": true,
+  "initialRepositoryReadme": {
+    "existedBeforeCreation": false,
+    "note": "正式 repo が存在しなかったため README.md は存在しないと記録し、domain docs と created_idea ZIP を根拠に作成した。"
+  },
+  "mojibakePolicy": "ZIP本文や既存Markdownは丸写しせず、PICKUP行、metadata、domain docsから正式docsを再構成する。",
+  "unstableEvidencePolicy": "ZIPサイズ、生成時刻、絶対一時パスはQCDS固定根拠に使わない。"
+}

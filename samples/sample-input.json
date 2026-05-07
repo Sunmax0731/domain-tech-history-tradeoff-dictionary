@@ -1,0 +1,22 @@
+{
+  "product": {
+    "repository": "domain-tech-history-tradeoff-dictionary",
+    "title": "領域別技術・歴史・トレードオフ辞書"
+  },
+  "items": [
+    {
+      "id": "domain-tech-history-tradeoff-dictionary-happy",
+      "title": "領域別技術・歴史・トレードオフ辞書 happy",
+      "status": "ready",
+      "tags": [
+        "dictionary",
+        "closed-alpha"
+      ],
+      "domain": "WebApp / AndroidApp",
+      "history": "モバイルとWebで責務分割が進化",
+      "adoptionContext": "公開速度と保守性を両立したい時",
+      "tradeoff": "初期学習コストがある",
+      "relatedTechnology": "PWA, native bridge"
+    }
+  ]
+}

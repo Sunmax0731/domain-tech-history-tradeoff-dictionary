@@ -1,0 +1,126 @@
+[
+  {
+    "id": "happy-path",
+    "purpose": "領域別技術・歴史・トレードオフ辞書 の正常入力を検証する",
+    "items": [
+      {
+        "id": "domain-tech-history-tradeoff-dictionary-happy",
+        "title": "領域別技術・歴史・トレードオフ辞書 happy",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "domain": "WebApp / AndroidApp",
+        "history": "モバイルとWebで責務分割が進化",
+        "adoptionContext": "公開速度と保守性を両立したい時",
+        "tradeoff": "初期学習コストがある",
+        "relatedTechnology": "PWA, native bridge"
+      }
+    ],
+    "expected": {
+      "result": "passed",
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "missing-required",
+    "purpose": "必須項目不足を error として検出する",
+    "items": [
+      {
+        "id": "domain-tech-history-tradeoff-dictionary-missing",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "domain": "WebApp / AndroidApp",
+        "history": "モバイルとWebで責務分割が進化",
+        "adoptionContext": "公開速度と保守性を両立したい時",
+        "tradeoff": "初期学習コストがある",
+        "relatedTechnology": "PWA, native bridge"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "warning",
+    "purpose": "推奨項目不足を warning として検出する",
+    "items": [
+      {
+        "id": "domain-tech-history-tradeoff-dictionary-warning",
+        "title": "領域別技術・歴史・トレードオフ辞書 warning",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "domain": "WebApp / AndroidApp",
+        "history": "モバイルとWebで責務分割が進化",
+        "adoptionContext": "公開速度と保守性を両立したい時",
+        "tradeoff": "初期学習コストがある"
+      }
+    ],
+    "expected": {
+      "result": "warning",
+      "errors": 0,
+      "warnings": 1
+    }
+  },
+  {
+    "id": "mixed-batch",
+    "purpose": "正常、必須不足、警告を同一バッチで集計する",
+    "items": [
+      {
+        "id": "domain-tech-history-tradeoff-dictionary-happy",
+        "title": "領域別技術・歴史・トレードオフ辞書 happy",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "domain": "WebApp / AndroidApp",
+        "history": "モバイルとWebで責務分割が進化",
+        "adoptionContext": "公開速度と保守性を両立したい時",
+        "tradeoff": "初期学習コストがある",
+        "relatedTechnology": "PWA, native bridge"
+      },
+      {
+        "id": "domain-tech-history-tradeoff-dictionary-missing",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "domain": "WebApp / AndroidApp",
+        "history": "モバイルとWebで責務分割が進化",
+        "adoptionContext": "公開速度と保守性を両立したい時",
+        "tradeoff": "初期学習コストがある",
+        "relatedTechnology": "PWA, native bridge"
+      },
+      {
+        "id": "domain-tech-history-tradeoff-dictionary-warning",
+        "title": "領域別技術・歴史・トレードオフ辞書 warning",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "domain": "WebApp / AndroidApp",
+        "history": "モバイルとWebで責務分割が進化",
+        "adoptionContext": "公開速度と保守性を両立したい時",
+        "tradeoff": "初期学習コストがある"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 1
+    }
+  }
+]
