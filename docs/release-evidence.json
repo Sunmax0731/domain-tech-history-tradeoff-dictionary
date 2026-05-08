@@ -20,7 +20,7 @@
     "Cost": "S-",
     "Delivery": "S-",
     "Satisfaction": "S-",
-    "capReason": "Codex側では手動テスト未実施"
+    "capReason": "manual-test-not-run-by-codex"
   },
   "automatedTests": [
     {
@@ -43,5 +43,33 @@
     "実機または公開先での継続利用確認",
     "公開先での表示確認",
     "ユーザーによるS+昇格判断"
-  ]
+  ],
+  "product": "domain-tech-history-tradeoff-dictionary",
+  "repository": "Sunmax0731/domain-tech-history-tradeoff-dictionary",
+  "latest": false,
+  "assetCount": 3,
+  "assets": {
+    "required": [
+      "dist/domain-tech-history-tradeoff-dictionary-docs.zip",
+      "docs/manual-test.md",
+      "docs/strict-manual-test-addendum.md"
+    ],
+    "actualNames": [
+      "domain-tech-history-tradeoff-dictionary-docs.zip",
+      "manual-test.md",
+      "strict-manual-test-addendum.md"
+    ],
+    "actualCount": 3,
+    "allRequiredPresent": true
+  },
+  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
+  "platformType": "browser-web",
+  "manualTest": "not-run-by-codex",
+  "github": {
+    "repo": "Sunmax0731/domain-tech-history-tradeoff-dictionary",
+    "url": "https://github.com/Sunmax0731/domain-tech-history-tradeoff-dictionary",
+    "releaseUrl": "https://github.com/Sunmax0731/domain-tech-history-tradeoff-dictionary/releases/tag/v0.1.0-alpha.1",
+    "prerelease": true,
+    "latest": false
+  }
 }

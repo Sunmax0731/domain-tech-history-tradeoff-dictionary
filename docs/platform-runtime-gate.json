@@ -1,0 +1,13 @@
+{
+  "product": "domain-tech-history-tradeoff-dictionary",
+  "title": "領域別技術・歴史・トレードオフ辞書",
+  "domain": "Dictionary",
+  "ideaNo": 1,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
